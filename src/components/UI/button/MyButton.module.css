@@ -1,0 +1,13 @@
+.myButton {
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

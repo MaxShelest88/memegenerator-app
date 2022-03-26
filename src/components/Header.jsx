@@ -4,7 +4,6 @@ import '../styles/Header.css'
 
 const Header = () => {
     return (
-        <div>
             <header className="header">
                 <div className="header__container _container">
                         <a href="#" className="header__logo">
@@ -16,7 +15,6 @@ const Header = () => {
                         <div className="header__info">React Course - Project 3</div>
                 </div>
             </header>
-        </div>
     );
 };
 

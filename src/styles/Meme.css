@@ -1,0 +1,16 @@
+.meme {
+    padding: 36px 0;
+}
+
+.meme__container {
+}
+
+._container {
+}
+
+.meme__inputs {
+    display: grid;
+    grid-template: 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 15px;
+}
