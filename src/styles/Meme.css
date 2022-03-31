@@ -1,16 +1,70 @@
 .meme {
+
+}
+
+
+.meme__inputs {
+
+}
+
+.meme__form {
+}
+
+.form-meme {
     padding: 36px 0;
 }
 
-.meme__container {
+.form-meme__container {
 }
 
-._container {
-}
-
-.meme__inputs {
+.form-meme__inputs {
     display: grid;
     grid-template: 40px / 1fr 1fr;
     gap: 17px;
     margin-bottom: 15px;
+}
+
+.meme__image {
+    position: relative;
+}
+
+.image-meme img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.image-meme__text {
+    word-wrap:break-word;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
 }
