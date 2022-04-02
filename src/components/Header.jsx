@@ -10,9 +10,9 @@ const Header = () => {
                             <div className="header__logo-image">
                                 <img src={trollFace} alt=""/>
                             </div>
-                            <div className="logo__text">Meme Generator</div>
+                            <div className="logo__text">Генератор мемов</div>
                         </a>
-                        <div className="header__info">React Course - Project 3</div>
+                        <div className="header__info">Максим Шелест</div>
                 </div>
             </header>
     );
