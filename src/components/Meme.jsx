@@ -5,7 +5,7 @@ import "../styles/Meme.css"
 
 
 
-const Meme = (props) => {
+const Meme = () => {
 
     const btnClick = (e) => {
         e.preventDefault()
@@ -74,7 +74,6 @@ const Meme = (props) => {
                     <MyButton onClick={btnClick}>Получить новое изображение мема 🖼</MyButton>
                 </form>
             </div>
-
             <div className="meme__image image-meme _container">
                 <img src={meme.randomImage} alt="meme image"/>
                 <h1 className="image-meme__text top">{meme.topText}</h1>
